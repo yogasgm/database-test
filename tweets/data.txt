@@ -1,0 +1,101 @@
+path:
+- data.csv
+- data.rds
+type: table
+description: Tweets dataset about JNE
+rows: 2656
+cols: 90
+columns:
+  user_id: numeric
+  status_id: numeric
+  created_at: POSIXct
+  screen_name: character
+  text: character
+  source: character
+  display_text_width: numeric
+  reply_to_status_id: numeric
+  reply_to_user_id: numeric
+  reply_to_screen_name: character
+  is_quote: logical
+  is_retweet: logical
+  favorite_count: numeric
+  retweet_count: numeric
+  quote_count: logical
+  reply_count: logical
+  hashtags: character
+  symbols: logical
+  urls_url: character
+  urls_t.co: character
+  urls_expanded_url: character
+  media_url: character
+  media_t.co: character
+  media_expanded_url: character
+  media_type: character
+  ext_media_url: character
+  ext_media_t.co: character
+  ext_media_expanded_url: character
+  ext_media_type: logical
+  mentions_user_id: character
+  mentions_screen_name: character
+  lang: character
+  quoted_status_id: numeric
+  quoted_text: character
+  quoted_created_at: POSIXct
+  quoted_source: character
+  quoted_favorite_count: numeric
+  quoted_retweet_count: numeric
+  quoted_user_id: numeric
+  quoted_screen_name: character
+  quoted_name: character
+  quoted_followers_count: numeric
+  quoted_friends_count: numeric
+  quoted_statuses_count: numeric
+  quoted_location: character
+  quoted_description: character
+  quoted_verified: logical
+  retweet_status_id: logical
+  retweet_text: logical
+  retweet_created_at: logical
+  retweet_source: logical
+  retweet_favorite_count: logical
+  retweet_retweet_count: logical
+  retweet_user_id: logical
+  retweet_screen_name: logical
+  retweet_name: logical
+  retweet_followers_count: logical
+  retweet_friends_count: logical
+  retweet_statuses_count: logical
+  retweet_location: logical
+  retweet_description: logical
+  retweet_verified: logical
+  place_url: character
+  place_name: character
+  place_full_name: character
+  place_type: character
+  country: character
+  country_code: character
+  geo_coords: character
+  coords_coords: character
+  bbox_coords: character
+  status_url: character
+  name: character
+  location: character
+  description: character
+  url: character
+  protected: logical
+  followers_count: numeric
+  friends_count: numeric
+  listed_count: numeric
+  statuses_count: numeric
+  favourites_count: numeric
+  account_created_at: POSIXct
+  verified: logical
+  profile_url: character
+  profile_expanded_url: character
+  account_lang: logical
+  profile_banner_url: character
+  profile_background_url: character
+  profile_image_url: character
+filenames:
+  data.csv: data.csv
+  data.rds: data.rds

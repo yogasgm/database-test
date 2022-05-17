@@ -1,1 +1,6 @@
-[]
+- path: tweets
+  name: tweets
+  type: table
+  description: Tweets dataset about JNE
+  rows: 2656
+  cols: 90
